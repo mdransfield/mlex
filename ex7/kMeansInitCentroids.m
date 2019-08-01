@@ -14,7 +14,7 @@ centroids = zeros(K, size(X, 2));
 %
 
 
-
+centroids = X(randi(size(X,1)),:)'
 
 
 
